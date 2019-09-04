@@ -73,6 +73,29 @@ const Home = () => {
         .social-link {
           margin-left: 10px;
         }
+        @media only screen
+          and (-webkit-min-device-pixel-ratio: 3) {
+            .hero {
+              flex-direction: column;
+            }
+            .left {
+              order: 1;
+            }
+            .title {
+              text-align: center;
+              font-size: 2em;
+            }
+            .right {
+              order: -1;
+            }
+            .description {
+              text-align: justify;
+              font-size: 1.2em;
+            }
+            .social {
+              text-align: center;
+            }
+          }
       `}</style>
     </Page>
   )

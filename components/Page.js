@@ -25,7 +25,7 @@ const Page = ({ children, pageTitle }) => {
           width: 100%;
         }
         .content {
-          width: 80%;
+          width: 85%;
           margin: 0 auto;
         }
         a {
@@ -40,6 +40,12 @@ const Page = ({ children, pageTitle }) => {
         a.text-link:hover {
           border-bottom: 1px dotted #164ebe;
         }
+        @media only screen
+          and (-webkit-min-device-pixel-ratio: 3) {
+            .content {
+              width: 100%;
+            }
+          }
       `}</style>
     </div>
   )
