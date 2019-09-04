@@ -25,6 +25,8 @@ const Page = ({ children, pageTitle }) => {
           width: 100%;
         }
         .content {
+          margin: 0;
+          padding: 0;
           width: 85%;
           margin: 0 auto;
         }

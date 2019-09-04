@@ -32,9 +32,13 @@ const About = () => {
         </p>
       </div>
       <style jsx>{`
-        .exp-item {
-          border-bottom: 1px dashed #333;
-        }
+        @media only screen
+          and (-webkit-min-device-pixel-ratio: 3) {
+            h1, .about-item {
+              width: 85%;
+              margin: 0 auto;
+            }
+          }
       `}</style>
     </Page>
   )
