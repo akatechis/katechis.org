@@ -20,7 +20,7 @@ const Home = () => {
           <p className='social'>
             <a className='social-link linkedin' href='https://www.linkedin.com/in/akatechis/' target='_blank' dangerouslySetInnerHTML={linkedin}></a>
             <a className='social-link github' href='https://github.com/akatechis' target='_blank' dangerouslySetInnerHTML={github}></a>
-            <a className='social-link mail' href='mailto:alexandros@katechis.org' target='_blank' dangerouslySetInnerHTML={mail}></a>
+            <a className='social-link mail' href='mailto:akatechis@gmail.com' target='_blank' dangerouslySetInnerHTML={mail}></a>
           </p>
         </div>
       </div>
